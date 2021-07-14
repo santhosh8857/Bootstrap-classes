@@ -1,0 +1,88 @@
+// buttons - btn
+
+// COLORS
+
+btn btn-primary    -> blue
+btn btn-secondary  -> light grey
+btn btn-success    -> green
+btn btn-info       -> greenish blue
+btn btn-warning    -> yellow
+btn btn-danger     -> red
+btn btn-light      -> light white
+btn btn-dark       -> dark 
+btn btn-link       -> display as link
+
+// OUTLINE BUTTONS
+
+btn btn-outline-primary    
+btn btn-outline-secondary 
+btn btn-outline-success    
+btn btn-outline-info       
+btn btn-outline-warning    
+btn btn-outline-danger     
+btn btn-outline-light      
+btn btn-outline-dark       
+
+// BUTTON SIZES
+
+btn btn-primary btn-lg
+btn btn-success btn-sm
+btn btn-dark btn-block
+
+// STATES
+
+btn btn-primary          -> regular
+btn btn-primary active   -> active button
+btn btn-primary disabled -> disabled button
+
+btn btn-primary, data-toggle="button"
+
+// BUTTON GROUP
+
+btn-group
+   btn btn-primary
+   btn btn-secondary
+   btn btn-success
+
+// BUTTON TOOLBAR
+
+btn-toolbar
+   btn-group
+      btn btn-primary
+      btn btn-primary
+      btn btn-primary
+   
+   btn-group
+      btn btn-secondary
+      btn btn-secondary
+      btn btn-secondary
+   
+   btn-group
+      btn btn-primary
+
+// VERTICAL GROUP
+
+btn-group-vertical
+   btn btn-primary
+   btn btn-primary
+   btn btn-primary
+
+// BUTTON DROPDOWNS
+
+dropdown
+   btn btn-primary dropdown-toggle, data-toggle="dropdown"
+      dropdown-menu
+         dropdown-item
+         dropdown-item
+         dropdown-item
+
+// SPLIT DROPDOWNS
+
+btn-group
+   btn btn-primary
+   btn-btn-secondary dropdown-toggle, data-toggle="dropdown"
+   dropdown-menu
+         dropdown-item
+         dropdown-item
+         dropdown-divider //seperate the options from other one
+         dropdown-item
